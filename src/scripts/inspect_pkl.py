@@ -13,17 +13,17 @@ def inspect_detection():
     print("\nCONTENT:")
     print(sample["detection_output"])
     print(sample.keys())
+    
 
     keys_set = set()
 
-    for i in range(min(200, len(df))):
+    for i in range(min(400, len(df))):
         sample = df["detection_output"].iloc[i]
         if isinstance(sample, dict):
             keys_set.update(sample.keys())
 
     print("\nUNIQUE KEYS:", keys_set)
-
-    
+ 
     out_dir = Path("data/processed")
     out_dir.mkdir(parents=True, exist_ok=True)
 
