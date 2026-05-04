@@ -23,7 +23,6 @@ def inspect_detection():
 
     print("\nUNIQUE KEYS:", keys_set)
 
-    # ---- export ----
     out_dir = Path("data/processed")
     out_dir.mkdir(parents=True, exist_ok=True)
 
