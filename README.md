@@ -1,2 +1,2 @@
 # 3d-hpe-benchmark
-testing 3D HPE SOTA models for Performance Art
+A unified benchmarking framework for 3D Human Pose Estimation in performing arts
